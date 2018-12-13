@@ -1,0 +1,32 @@
+{
+  "name": "curso-js-com-tdd",
+  "version": "1.0.0",
+  "description": "Repositório do curso de Javascript com TDD ofertado na Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelhenrique2000/curso-js-com-tdd-na-pratica.git"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "curso",
+    "udemy"
+  ],
+  "author": "Joel Henrique Silva Santos",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/joelhenrique2000/curso-js-com-tdd-na-pratica/issues"
+  },
+  "homepage": "https://github.com/joelhenrique2000/curso-js-com-tdd-na-pratica#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
