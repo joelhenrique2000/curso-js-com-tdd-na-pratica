@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let firstName = 'Willian';
+        let surname = 'Justen';
+        let age = 26;
+
+        const personEs5 = {
+            firstName: firstName,
+            surname: surname,
+            age: age,
+            hello: function() {
+                console.log('Hello!');
+            }
+        }
+
+        const person = {
+            firstName,
+            surname,
+            age,
+            hello() {
+                console.log('Hello!');
+            }
+        }
+        console.log(personEs5);
+        console.log(person);
+        
+    </script>
+</body>
+
+</html>
